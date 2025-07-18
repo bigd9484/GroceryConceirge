@@ -1,0 +1,73 @@
+# GroceryConcierge - Python Dependencies
+# =====================================
+
+# Core Dependencies
+# -----------------
+
+# OpenAI API for AI-powered meal planning
+openai>=0.27.0
+
+# HTTP requests for API integrations
+requests>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Date and time utilities (enhanced datetime handling)
+python-dateutil>=2.8.2
+
+# JSON schema validation for API responses
+jsonschema>=4.17.0
+
+# Data validation and settings management
+pydantic>=2.0.0
+
+# Development and Testing
+# -----------------------
+
+# Testing framework
+pytest>=7.4.0
+
+# Test coverage reporting
+pytest-cov>=4.1.0
+
+# Code formatting
+black>=23.0.0
+
+# Code linting
+flake8>=6.0.0
+
+# Type checking
+mypy>=1.5.0
+
+# Optional Dependencies for Enhanced Features
+# ------------------------------------------
+
+# Web framework for potential API endpoint creation
+# flask>=2.3.0
+
+# Database support for persistent storage
+# sqlalchemy>=2.0.0
+
+# Configuration file parsing (YAML, TOML)
+# pyyaml>=6.0
+
+# Rich terminal formatting for better CLI output
+# rich>=13.0.0
+
+# Schedule management and cron-like functionality
+# schedule>=1.2.0
+
+# Email notifications
+# smtplib (built-in)
+
+# CSV/Excel file processing for inventory import/export
+# pandas>=2.0.0
+# openpyxl>=3.1.0
+
+# Logging enhancements
+# colorlog>=6.7.0
+
+# API rate limiting and caching
+# cachetools>=5.3.0
+# ratelimit>=2.2.1
